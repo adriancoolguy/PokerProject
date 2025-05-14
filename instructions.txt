@@ -1,0 +1,29 @@
+Want to build out a poker game:
+
+Basic Functionality:
+- Cards
+    - User Cards (2 cards each player)
+    - Cards in the middle
+    - Rest of deck
+- Hierarchy
+- 2 Players
+- Betting Ammount
+- Turns
+    - Betting
+    - Fold
+    - Check
+
+
+How I Could Go About It:
+1. Establish 52 Cards globablly
+    - Establish a hierarchy of Cards (I can have suits, but can just use if statements to say that higher better than another)
+    - Also a hierarchy of hands (doubles, triples, straight, flush)
+    - Randomly distribute 2 to p1 and 2 to p2 without replacement... the rest are in the deck
+
+2. Betting Protocol:
+    - Each user should be given a random value of chips between 1000 and 10000
+    - 
+    -
+
+3. Turns
+    - Show users their cards... don't worry about keeping hidden from others ()
